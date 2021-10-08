@@ -1,4 +1,116 @@
 body {
     background-image: url(https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201612/f_trump_kanye2_161213__394670.jpg);
-    text-align: center ;
+
+    background-position: center;
+    text-align: center;
 }
+h1#title {
+    position: center;
+    font-size: 35px;
+    background-color: blueviolet;
+    color: white;
+    padding:10px;
+    margin-left:440px;
+    margin-right:440px
+}
+
+/*Editing the Kanye button*/
+#K {
+    position:relative;
+    text-align: auto;
+    font-size: 20px;
+    background-color:blueviolet;
+    color:floralwhite;
+    padding: 14px 20px;
+    top: 200px;
+    left: 250px;
+}
+
+/*Editing the Trump button*/
+#T {
+    position:relative;
+    text-align: auto;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: floralwhite;
+    padding: 14px 20px;
+    top: 200px;
+    left: -215px;
+}
+
+/*Editing the counter number*/
+#counter{
+    position: relative;
+    top: 100px;
+    background-color: blueviolet;
+    background-size: 80px;
+    padding: 15px;
+    font-size: x-large;
+    color: white;
+    left:20px
+}
+
+/*Editing the "Score" text*/
+p#score{
+    color:white;
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    margin-left:670px;
+    margin-right:670px;
+    left:20px
+}
+
+/*Editing the quote element*/
+p#quote_container{
+    position:relative;
+    color:black;
+    left: 585px;
+    bottom: 130px;
+    width:20%;
+    height: 10%;
+}
+
+/*creating the speech bubble*/
+
+ .box {
+    width: 360px;
+    margin: 20px auto;
+    background: white;
+    padding-top: 120px;
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+    font-family: arial;
+    position:relative;
+    left: 20px
+}
+
+/*Creating small left triangle that's part of bubble*/
+  .sb4:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid white;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    left: 19px;
+    bottom: -19px;
+}
+
+/*Creating small right triangle that's part of bubble*/
+  .sb4:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid transparent;
+    left: 320px;
+    top: 120px; 
+}
+
