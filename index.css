@@ -1,5 +1,6 @@
 body {
     background-image: url(https://media2.s-nbcnews.com/i/MSNBC/Components/Video/201612/f_trump_kanye2_161213__394670.jpg);
+
     background-position: center;
     text-align: center;
 }
@@ -112,3 +113,4 @@ p#quote_container{
     left: 320px;
     top: 120px; 
 }
+
